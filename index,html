@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html >
+<head>
+<title>新疆</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="con">
+    <div class="nav">
+    <ul>
+    <li><a href="index.htm">站点主页</a></li>
+	<li><a href="jieshao.htm">新疆介绍</a></li>
+    <li><a href="ziyuan.htm">自然资源</a></li>
+	<li><a href="jingdian.htm">著名景点</a></li>
+	<li><a href="xinshang.htm">风景欣赏</a></li>
+    </ul>
+	</div>
+    <div id="slider">
+	<ul class="pics">
+		<li><img src="images/banner/0.jpg" /></li>
+		<li><img src="images/banner/1.jpg" /></li>
+		<li><img src="images/banner/2.jpg" /></li>
+		<li><img src="images/banner/3.jpg" /></li>
+	</ul>
+	<ul id="nav">
+		<li onmouseover="setTimeout(function(){lanrenzhijia.slider.pos(0)},300)">1</li>
+		<li onmouseover="setTimeout(function(){lanrenzhijia.slider.pos(1)},300)">2</li>
+		<li onmouseover="setTimeout(function(){lanrenzhijia.slider.pos(2)},300)">3</li>
+		<li onmouseover="setTimeout(function(){lanrenzhijia.slider.pos(3)},300)">4</li>
+	</ul>
+	</div>
+    <script type="text/javascript" src="js/banner.js"></script>
+    <div class="foot"><p>新疆</p></div>
+</div>
+</body>
+</html>
